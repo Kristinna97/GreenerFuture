@@ -1,0 +1,176 @@
+/* COMPUTER SCREENS */
+
+@media only screen and (max-width: 1200px) {
+    .banner-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+    .logo {
+        height: 100px;
+    }
+    .action-img {
+        height: 260px;
+    }
+    .subscribe-text {
+        position: relative;
+        top: 25%;
+        left: 5%;
+    }
+    .involve-step {
+        margin-bottom: 50px;
+        width: 75%;
+    }
+    .about-us-paragraph {
+        margin-top: 4px;
+    }
+}
+
+
+/* BIG TABLET SCREENS */
+
+@media only screen and (max-width: 1023px) {
+    html {
+        font-size: 15px;
+    }
+    .about-us-paragraph {
+        font-size: 150%;
+    }
+    .involve-step {
+        font-size: 135%;
+        width: 90%;
+    }
+    .involve-box {
+        margin-left: 10px;
+    }
+    .action-img {
+        height: 200px;
+    }
+    .take-part-paragraph {
+        font-size: 120%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+    .map {
+        width: 100%;
+        height: 300px;
+    }
+    .subscribe-text {
+        font-size: 150%;
+    }
+    #email-subscribe {
+        font-size: 90%;
+        width: 200px;
+        height: 30px;
+    }
+    .subscribe {
+        height: 350px;
+    }
+    footer {
+        padding: 20px;
+    }
+    .photo-earth {
+        height: 440px;
+    }
+}
+
+
+/* BIGER PHONES TO SMALL TABLET SCREENS */
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 13px;
+    }
+    .row {
+        padding: 0 4%;
+    }
+    .col {
+        width: 100%;
+    }
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 110%;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    .sticky .mobile-nav-icon ion-icon {
+        color: #fff;
+    }
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    .about-us-paragraph {
+        font-size: 150%;
+    }
+    .photo-box {
+        justify-content: center;
+    }
+    .action-img {
+        height: 400px;
+    }
+    .involve-step {
+        font-size: 160%;
+        margin-top: 5px;
+    }
+    .involve-box {
+        margin-top: 3px;
+    }
+    .take-part-paragraph {
+        font-size: 130%;
+        margin-bottom: 10px;
+    }
+    .form {
+        margin-top: 10px;
+        font-size: 130%;
+        width: 100%;
+    }
+    input[type=text],
+    input[type=email],
+    select {
+        width: 100%;
+        padding: 7px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+    .submit {
+        margin-top: 10px;
+        margin-right: 35%;
+    }
+    .social-links {
+        margin-right: 35%;
+    }
+    .footer-nav {
+        font-size: 100%;
+        margin-left: 20%;
+    }
+}
+
+
+/* SMALL SCREENS */
+
+@media only screen and (max-width: 480px) {}
